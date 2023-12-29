@@ -1,0 +1,172 @@
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introduction {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid: gap 20px;
+}
+
+.introduction p {
+    line-height: 1.6;
+
+}
+
+.section1 h1 {
+    color: #00b39b;
+    font-weight: 100;
+}
+
+.section2 {
+    display: flex;
+    grid-gap: 20px;
+    width: 70%;
+    margin: auto;
+}
+
+.box1 {
+    background-color: #00b39b;
+    height: 300px;
+    border-radius: 7px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box2 {
+    background-color: rgb(61, 61, 247);
+    height: 300px;
+    border-radius: 7px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box3 {
+    background-color: rgba(0, 0, 0, 0.901);
+    height: 300px;
+    border-radius: 7px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+select {
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+option {
+    color: grey;
+}
+
+.section1 {
+
+    width: 70%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.comm {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+h2 {
+    color: #00b39b;
+    display: grid;
+}
+
+/* ***** section3***** */
+.section3 {
+    background-color: #dff8f6;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.plateform {
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+
+.rigth {
+    width: 50%;
+}
+
+.cards {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: (2,1fr);
+    
+    grid-gap: 20px;
+}
+
+
+
+.rigth p {
+    color: gray;
+}
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-with: 500px) {
+    .introduction {
+        display: grid;
+        grid-template-columns: 100%;
+        grid: gap 20px;
+    }
+
+    .section1 {
+        width: 100%;
+
+    }
+
+    .section1 h1 {
+        text-align: center;
+    }
+
+    .section2 {
+        display: grid;
+        grid-template-columns: repeat(101fr);
+        grid-gap: 20px;
+    }
+
+    .section2 {
+        width: 100%;
+    }
+}
